@@ -1,0 +1,37 @@
+title: Blogs
+description: Personal Blogs
+author: Zhouyl's blogs
+github: https://github.com/zhouyl19
+about: 只是一个个人博客，偶尔更新，欢迎私戳。
+disqus_shortname: Blogs
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+urls:
+    - text: About Me
+      url: /about/
+    # - text: My Projects
+      # url: /projects/
+
+url: "https://zhouyl19.github.io/"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
