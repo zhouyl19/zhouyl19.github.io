@@ -18,7 +18,7 @@ urls:
       url: /about/
     # - text: My Projects
       # url: /projects/
-     text: XML Feed
+    - text: XML Feed
       url: /feed.xml
 
 url: "https://zhouyl19.github.io/"
